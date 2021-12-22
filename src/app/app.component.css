@@ -1,0 +1,12 @@
+.logo {
+}
+
+.app-name {
+    float: left;
+    display: inline;
+}
+
+img {
+    width: 40px;
+    height: auto;
+}
