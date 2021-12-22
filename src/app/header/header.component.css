@@ -1,0 +1,10 @@
+img {
+    width: 40px;
+    height: auto;
+}
+
+.app-name {
+    position: relative;
+    top: -60px;
+    left: 60px;
+}
