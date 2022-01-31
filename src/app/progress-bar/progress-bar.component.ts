@@ -1,6 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, NgModule } from '@angular/core';
 import {ThemePalette} from '@angular/material/core';
 import {ProgressSpinnerMode} from '@angular/material/progress-spinner';
+
+import { BrowserModule } from '@angular/platform-browser'; 
+import { FormsModule } from "@angular/forms";
 
 @Component({
   selector: 'app-progress-bar',
@@ -11,9 +14,10 @@ export class ProgressBarComponent implements OnInit {
 
   constructor() { }
 
-  color: ThemePalette = 'primary';
+  color: ThemePalette = 'warn';
   mode: ProgressSpinnerMode = 'determinate';
-  value = 50;
+  value: number = 80;
+  val: string = '';
 
   ngOnInit(): void {
   }

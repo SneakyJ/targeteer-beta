@@ -1,8 +1,15 @@
 <p>progress-bar works!</p>
-<mat-progress-bar mode="determinate" [value]="40"></mat-progress-bar>
+    <!-- <label> Progress value:</label>
+    <input type="text" [(ngModel)]='val'> -->
+<mat-progress-bar 
+    mode="determinate" 
+    [color]="color"
+    [value]="value">
+</mat-progress-bar>
+
 <mat-progress-spinner 
     class="example-margin"
     [color]="color"
     [mode]="mode"
-    [value]="value">
+    [value]="value">{{value}}
 </mat-progress-spinner>
