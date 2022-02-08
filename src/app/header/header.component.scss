@@ -3,14 +3,18 @@ img {
     height: auto;
 }
 
-.float-container {
-    border: 3px solid #fff;
-    padding: 20px;
+.header-container {
+    height: 100px;
 }
 
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    border: 2px solid red;
+.bg-color1 {
+    background-color:rgb(115, 180, 182);
+}
+
+.bg-color2 {
+    background-color:rgb(95, 158, 160);
+}
+
+.bg-color3 {
+    background-color:rgb(70, 135, 140);
 }
