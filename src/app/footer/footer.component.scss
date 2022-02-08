@@ -1,4 +1,17 @@
 
 .footer{
+    background-color: #333032;
+    color: #FFFFFF;
+    font-family:fantasy ;
+    font-size: 1em;
+    height: 10em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
     
+}
+
+.footer p {
+    margin: 10px, 0px, 0px, 0px !important;
+    padding: 10px, 0px, 0px, 0px;    
 }

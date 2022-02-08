@@ -12,11 +12,10 @@ export class MenuComponent implements OnInit {
   // menuItems: any[] = [
   //   {"name":'Menu item 1'}, {"name":'Menu item 2'}, {"name":'Menu item 3'}];
 
-  menuItems: string[] = [
-    'item0', 
-    'item1', 
-    'item2', 
-    'item3'];
+  menuItems: string[] = [ 
+    'Goals', 
+    'Set Goal',
+    'Profile'];
 
   ngOnInit(): void {
   }
