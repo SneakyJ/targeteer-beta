@@ -8,10 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
 
   constructor() { }
-
-  // menuItems: any[] = [
-  //   {"name":'Menu item 1'}, {"name":'Menu item 2'}, {"name":'Menu item 3'}];
-
+  
   menuItems: string[] = [ 
     'Goals', 
     'Set Goal',
